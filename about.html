@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./scss/style.css">
+<!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+  <!-- External CSS file -->
+	<link rel="stylesheet" href="./scss/style.css">
+
+	<!-- Ionicons icon CDN -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>A-CLASS ACADEMIC CONSULT | HOME</title>
+</head>
+<body>
+
+    	    	<!----------- Header section start ---------------->
+
+  <header class=" container-xxl d-flex align-items-center">
+    <div class="container-xxl d-flex justify-content-between">
+
+      <div class="navb-logo">
+       <a href="/"> <img src="./photo/logo.jpg" alt="logo"></a>
+      </div>
+
+      <div class="navb-items ">
+        <div class="d-none d-lg-flex ">
+        <div class="items">
+          <a href="#">Home</a>
+        </div>
+
+        <div class="items">
+          <a href="./about.html">About Us</a>
+        </div>
+
+        <div class="dropdown pt-2">
+          <a class="items dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+        
+          <ul class="dropdown-menu mt-3" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item border-bottom" href="#">Research & Development</a></li>
+            <li><a class="dropdown-item border-bottom" href="#">Training</a></li>
+            <li><a class="dropdown-item border-bottom" href="#">Project Management Services</a></li>
+            <li><a class="dropdown-item border-bottom" href="#">Recruitment Consultancy</a></li>
+            <li><a class="dropdown-item border-bottom" href="#">IT Services</a></li>
+            <li><a class="dropdown-item border-bottom" href="#">Sponsor a Child Initiative</a></li>
+          </ul>
+        </div>
+
+        <div class="items">
+          <a href="#career">Career</a>
+        </div>
+
+        <div class="items btn btn-danger p-2 text-light">
+          <a href="./contact.html">Contact Us</a>
+        </div>
+      </div>
+
+       
+
+        <!-- Button trigger modal -->
+        <div class="mobile-toggler d-lg-none">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+            <i class=" fa-2x fa-solid fa-bars "></i>
+          </a>
+        </div>
+
+<!-- Modal -->
+<div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header d-flex">
+       <img src="./photo/logo.jpg" alt="logo">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-line">
+          <i class="fa-solid fa-house"></i> <a href="#">Home</a>
+        </div>
+        
+        <div class="modal-line">
+          <i class="fa-solid fa-circle-info"></i> <a href="./about.html">About Us</a>
+        </div>
+        <div class="modal-line">
+          <div class="dropup pt-2">
+            <i class="fa-solid fa-circle-info m-0 p-0"></i><a class="items dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+          
+            <ul class="dropdown-menu mt-3 " aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item border-bottom" href="#">Research & Development</a></li>
+              <li><a class="dropdown-item border-bottom" href="#">Training</a></li>
+              <li><a class="dropdown-item border-bottom" href="#">Project Management Services</a></li>
+              <li><a class="dropdown-item border-bottom" href="#">Recruitment Consultancy</a></li>
+              <li><a class="dropdown-item border-bottom" href="#">IT Services</a></li>
+              <li><a class="dropdown-item border-bottom" href="#">Sponsor a Child Initiative</a></li>
+            </ul>
+          </div>        
+        </div>
+
+        
+
+        <div class="modal-line">
+          <i class="fa-solid fa-graduation-cap"></i><a href="#career">Career</a>
+        </div>
+
+       <a href="./contact.html" class="navb-button">Contact Us</a>
+      </div>
+
+      <div class="mobile-modal-footer">
+        
+<a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+<a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+<a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+   </header>
+
+  	<!----------- Header section End ---------------->
+    
+        <!----------- Hero section start ---------------->
+	<section class="about-hero">
+		<div class="containers">
+			<div class="about-hero-content">
+				<h2 class="heading white display-1 text-decoration-underline">
+					About Us
+				</h2>
+				
+			</div>
+		</div>
+	</section>
+	<!----------- Hero section end ---------------->
+  <section class="container breakcrumbs-section heading py-2">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item "><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item active ">About Us</li>
+    </ol>
+  </section>
+
+  <!------------------------About us start ---------------- -->
+  <div class="container-lg my-5">
+    <div class="row about-details">
+      <div class="col-lg-6 col-md-12 my-3 justify-content-center align-items-center text-start">
+        
+        <div class="p-3 text-dark">
+          <div class=" fw-bold display-5 text-danger text-center text-lg-start text-decoration-underline" style="text-align: justify">About Our Company</div><br>
+          <div class="para-line text-dark my-2 fs-6 px-3" style="text-align: justify; text-justify:inter-word">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolores nihil accusantium numquam inventore aliquid molestiae odio quaerat consequuntur, repellat nostrum culpa velit exercitationem dignissimos reiciendis! Beatae cupiditate harum modi tempora dolore quis esse sit nisi quasi quaerat nobis assumenda placeat vero provident earum accusamus dignissimos dolorum sapiente, corrupti laudantium libero, ipsa est neque. Molestiae autem quidem quasi vitae rerum voluptas nisi alias repudiandae inventore quam accusamus ipsa saepe enim vero, expedita odit officiis minus veniam eos quia corrupti a, reiciendis cum! Maxime dignissimos alias, voluptatibus quae repellat laborum quisquam odit minima, nisi omnis facilis expedita at magni? Fugiat commodi debitis consectetur, totam dolores assumenda alias perferendis recusandae iure laudantium saepe blanditiis dolor odio soluta! Itaque aliquid amet maiores consequatur aspernatur sit aliquam dolorum, possimus aut id, quo debitis dicta soluta ut corrupti vitae earum ratione architecto ipsam suscipit! Incidunt eius, nostrum libero, reprehenderit repellendus eos at ipsa quidem quasi tenetur culpa fugit numquam sapiente rerum quis. Quibusdam libero quo illum unde provident pariatur deserunt, odit dicta reiciendis voluptate earum soluta vitae? Labore tempora iure amet incidunt dolore sunt consectetur, quidem minima odit beatae quis ullam aliquam suscipit dolor pariatur aspernatur sequi earum nostrum expedita numquam magnam porro harum? Animi.</div>
+          <button class="btns border-btns">
+						<a href="/contact">
+							Contact us now
+							<ion-icon name="chevron-forward-outline"></ion-icon>
+						</a>
+					</button>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 my-3 justify-content-center align-items-center text-start mt-5">
+        
+        <div class="p-3 w-100 text-dark mt-5 pt-5 ">
+          <iframe class="w-100" height="500" style="margin-top:20px"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!------------------------About Us end ---------------- -->
+
+
+<!----------- Team section start ------------>
+<div class="container-lg my-5 p-4 team-section">
+  <h2 class="text-center display-4 text-danger fw-bold">Meet Our Masters</h2>
+  <p class="text-center mx-2 px-2 team-description" style="text-align: justify; text-justify:inter-word">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laboriosam quod inventore facere ratione perspiciatis porro atque aut iste! Quod.</p>
+
+  <div class="row align-items-center shadow rounded justify-content-center my-5">
+
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card mb-3 border-0">
+      <div class="card-body rounded text-center py-3">
+        <img src="./photo/professor-1.jpg" alt="">
+        <h5 class="card-title fw-bolder pt-3 text-danger success-card-header">Prof. Mike Carter</h5>
+        <p class="card-text mx-2 pb-2 text-danger h6 team-card-detail">Team Lead</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card mb-3 border-0">
+      <div class="card-body rounded text-center py-3">
+        <img src="./photo/professor-2.jpg" alt="">
+        <h5 class="card-title fw-bolder pt-3 text-danger success-card-header">Dr. James Morgan</h5>
+        <p class="card-text mx-1 pb-2 text-danger h6 team-card-detail">Software Engineer</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card mb-3 border-0">
+      <div class="card-body rounded text-center py-3">
+        <img src="./photo/professor-3.jpg" alt="">
+        <h5 class="card-title fw-bolder pt-3 text-danger success-card-header">Dr. Patricia Jone</h5>
+        <p class="card-text mx-2 pb-2 text-danger h6 team-card-detail">Health Coach</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card mb-3 border-0">
+      <div class="card-body rounded text-center py-3">
+        <img src="./photo/professor-4.jpg" alt="">
+        <h5 class="card-title fw-bolder pt-3 text-danger success-card-header">Dr. Roberto Lyon</h5>
+        <p class="card-text mx-2 pb-2 text-danger h6 team-card-detail">Research Coach</p>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+<!----------- Team section end ------------>
+
+<!----------- Success section start ------------>
+<div class="container-lg my-5 p-4 success-section">
+  <h2 class="text-center display-4 text-danger fw-bold">Over 8 Years of Success!</h2>
+  <p class="text-center success-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laboriosam quod inventore facere ratione perspiciatis porro atque aut iste! Quod.</p>
+
+  <div class="row align-items-center justify-content-center my-5">
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card shadow rounded">
+      <div class="card-body text-center py-3">
+        <ion-icon name="library-outline" class="success-icon display-4"></ion-icon>
+        <h3 class="card-title fw-bolder text-muted text-danger success-card-header">100+</h3>
+        <p class="card-text mx-5 text-muted h5">Courses</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card shadow rounded">
+      <div class="card-body text-center py-3">
+        <ion-icon name="trophy-outline" class="success-icon display-4"></ion-icon>
+        <h3 class="card-title fw-bolder text-muted text-danger success-card-header">5.5K+</h3>
+        <p class="card-text mx-5 text-muted h5">Students</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card shadow rounded">
+      <div class="card-body text-center py-3">
+        <ion-icon name="flame-outline" class="success-icon display-4"></ion-icon>
+        <h3 class="card-title fw-bolder text-muted text-danger success-card-header">100%</h3>
+        <p class="card-text mx-5 text-muted h5">Success Rate</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card shadow rounded">
+      <div class="card-body text-center py-3">
+        <ion-icon name="medal-outline" class="success-icon display-4"></ion-icon>
+        <h3 class="card-title fw-bolder text-muted text-danger success-card-header">98%</h3>
+        <p class="card-text mx-5 text-muted h5">Certified</p>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+<!----------- Success section end ------------>
+
+
+
+<!----------- Footer section start ------------>
+
+<footer class="bg-danger text-white pt-5 pb-4">
+
+  <div class="container text-center text-md-start">
+
+    <div class="row text-center text-md-start">
+
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="mb-4 fw-bold text-white"><img style="width: 300px;" src="./photo/logo.jpg" alt=""></h5>
+        <p>Here you can use rows and column to organise your footer content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, optio!</p>
+
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 fw-bold text-white">Navigation</h5>
+        <p>
+          <a href="/" class="text-white">Top Page</a>
+        </p>
+        <p>
+          <a href="/about" class="text-white">About Us</a>
+       </p>
+        <p>
+          <a href="/services" class="text-white">Services</a>
+       </p>
+        <p>
+          <a href="/blogs" class="text-white">Blogs</a>        
+        </p>
+      </div>
+
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 fw-bold text-white">Useful Links</h5>
+        <p>
+          <a href="#" class="text-white">Research & Development</a>
+        </p>
+        <p>
+          <a href="#" class="text-white">Training</a>
+       </p>
+        <p>
+          <a href="#" class="text-white">Recruitment Consultancy</a>
+       </p>
+        <p>
+          <a href="#" class="text-white">Project Management Service</a>        
+        </p>
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 fw-bold text-white">Contacts</h5>
+        <p>
+          <i class="bi bi-house-door mr-3"></i> Achievers Villa, Opposite University of Port Harcourt Teaching Hospital Main Gate, Alakahia, Rivers State, Nigeria.
+        </p>
+        <p>
+          <i class="bi bi-envelope mr-3"></i> info@aclassconsults.com
+        </p>
+        <p>
+          <i class="bi bi-telephone mr-3"></i> +44 7544 742493
+        </p>
+        <p>
+          <i class="bi bi-printer mr-3"></i> +234 7061985823
+        </p>
+      </div>
+
+    </div>
+
+    <hr class="mb-4">
+    <div class="row align-items-center">
+      <div class="col-md-7 col-lg-8">
+        <p>Copyright &copy;2023 All rights reserved by:
+          <a href="#">
+            <strong class="text-white">A-CLASS ACADEMIC CONSULT</strong>
+          </a>
+        </p>
+      </div>
+
+      <div class="col-md-5 col-lg-4">
+        <div class="text-center text-md-end">
+
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-envelope-at"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-youtube"></i></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+<!----------- footer section end ------------>
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

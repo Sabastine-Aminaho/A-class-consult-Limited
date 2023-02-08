@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./scss/style.css">
+<!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+  <!-- External CSS file -->
+	<link rel="stylesheet" href="./scss/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+	<!-- Ionicons icon CDN -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>A-CLASS ACADEMIC CONSULT | HOME</title>
+</head>
+<body>
+  
+    	<!----------- Header section start ---------------->
+
+  <header class=" container-xxl d-flex align-items-center">
+    <div class="container-xxl d-flex justify-content-between">
+
+      <div class="navb-logo">
+       <a href="/"> <img src="./photo/logo.jpg" alt="logo"></a>
+      </div>
+
+      <div class="navb-items ">
+        <div class="d-none d-lg-flex ">
+        <div class="items">
+          <a href="#">Home</a>
+        </div>
+
+        <div class="items">
+          <a href="./about.html">About Us</a>
+        </div>
+
+        <div class="dropdown pt-2">
+          <a class="items dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+        
+          <ul class="dropdown-menu mt-3" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item border-bottom" href="./research&development.html">Research & Development</a></li>
+            <li><a class="dropdown-item border-bottom" href="#">Training</a></li>
+            <li><a class="dropdown-item border-bottom" href="#">Project Management Services</a></li>
+            <li><a class="dropdown-item border-bottom" href="#">Recruitment Consultancy</a></li>
+            <li><a class="dropdown-item border-bottom" href="#">IT Services</a></li>
+            <li><a class="dropdown-item border-bottom" href="#">Sponsor a Child Initiative</a></li>
+          </ul>
+        </div>
+
+        <div class="items">
+          <a href="#career">Career</a>
+        </div>
+
+        <div class="items btn btn-danger p-2 text-light">
+          <a href="./contact.html">Contact Us</a>
+        </div>
+      </div>
+
+       
+
+        <!-- Button trigger modal -->
+        <div class="mobile-toggler d-lg-none">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+            <i class=" fa-2x fa-solid fa-bars "></i>
+          </a>
+        </div>
+
+<!-- Modal -->
+<div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header d-flex">
+       <img src="./photo/logo.jpg" alt="logo">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-line">
+          <i class="fa-solid fa-house"></i> <a href="#">Home</a>
+        </div>
+        
+        <div class="modal-line">
+          <i class="fa-solid fa-circle-info"></i> <a href="./about.html">About Us</a>
+        </div>
+        <div class="modal-line">
+          <div class="dropup pt-2">
+            <i class="fa-solid fa-circle-info m-0 p-0"></i><a class="items dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+          
+            <ul class="dropdown-menu mt-3 " aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item border-bottom" href="./research&development.html">Research & Development</a></li>
+              <li><a class="dropdown-item border-bottom" href="#">Training</a></li>
+              <li><a class="dropdown-item border-bottom" href="#">Project Management Services</a></li>
+              <li><a class="dropdown-item border-bottom" href="#">Recruitment Consultancy</a></li>
+              <li><a class="dropdown-item border-bottom" href="#">IT Services</a></li>
+              <li><a class="dropdown-item border-bottom" href="#">Sponsor a Child Initiative</a></li>
+            </ul>
+          </div>        
+        </div>
+
+        
+
+        <div class="modal-line">
+          <i class="fa-solid fa-graduation-cap"></i><a href="#career">Career</a>
+        </div>
+
+       <a href="./contact.html" class="navb-button">Contact Us</a>
+      </div>
+
+      <div class="mobile-modal-footer">
+        
+<a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+<a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+<a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+<a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+   </header>
+
+  	<!----------- Header section End ---------------->
+
+
+
+
+
+
+
+
+
+
+
+
+  	<!----------- Hero section start ---------------->
+	<section class="hero">
+		<div class="containers">
+			<div class="hero-content">
+				<h2 class="heading white display-4">
+					Learn from the Experts <br>
+					Anytime, Anywhere.
+				</h2>
+				<p class=" px-5 container para-line white w-100 w-lg-50">
+					Lorem Ipsum is simply dummied text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+				</p>
+				<button class="btn-lg btn-danger">
+					<a href="./contact.html">
+						Contact Us Today &nbsp; <ion-icon name="caret-forward-outline"></ion-icon>
+					</a>
+				</button>
+			</div>
+		</div>
+	</section>
+	<!----------- Hero section end ---------------->
+
+  <!----------- About section start ------------->
+	<section class="about my-5 about-section">
+    <h2 class="container-lg text-center display-4 my-5 border-bottom border-danger border-3">About</h2>
+
+		<div class="container d-md-flex d-sm-block">
+				<div class="col">
+					<h2 class="heading text-danger display-5">
+						Lorem ipsum dolor sit amet consectetur adipisicing 
+					</h2>
+					<p class="para-line">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+					<button class="btns border-btns">
+						<a href="/about">
+							Learn More 
+							<ion-icon name="chevron-forward-outline"></ion-icon>
+						</a>
+					</button>
+				</div>
+				<div class="col">
+					<img class="img-fluid rounded" src="./photo/pic6.jpg" alt="course about" >
+				</div>
+      </div>
+		</div>
+	</section>
+	<!----------- About section end ---------------->
+
+
+<!------------------Services section Start  ------------>
+  <div class="container-lg my-5 pt-5 service-container">
+    <div class="services h2 my-3 text-center display-4 border-3 border-bottom border-danger">Services</div><br>
+    <div class="row">
+      
+      <div class=" col-md-4 my-3 justify-content-center align-items-center text-center">
+        
+        <div class="p-3 text-dark">
+          <i class="bi bi-book text-danger h1"></i>          <div class="service-header fw-bold h4">Research & Development</div>
+          <div class="para-line mx-3 text-dark my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quibusdam autem odio cumque repellendus vitae consequuntur totam sint nisi ipsam, commodi veniam esse </div>
+        </div>
+      </div>
+      <div class=" col-md-4 my-3 justify-content-center align-items-center text-center">
+        
+        <div class="p-3 text-dark">
+          <i class="bi bi-cloud-check text-danger h1"></i>
+          <div class="service-header fw-bold h4">Training</div>
+          <div class="para-line mx-3 text-dark my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quibusdam autem odio cumque repellendus vitae consequuntur totam sint nisi ipsam, commodi veniam esse </div>
+        </div>
+      </div>
+      <div class=" col-md-4 my-3 justify-content-center align-items-center text-center">
+        
+        <div class="p-3 text-dark">
+          <i class="bi bi-info-square h1 text-danger"></i>
+          <div class="service-header fw-bold h4">Sponsor a Child</div>
+          <div class="para-line mx-3 text-dark my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quibusdam autem odio cumque repellendus vitae consequuntur totam sint nisi ipsam, commodi veniam esse </div>
+        </div>
+      </div>
+      <div class="col-md-4  my-3 justify-content-center align-items-center text-center">
+        
+        <div class="p-3 text-dark">
+          <i class="bi bi-person-workspace h1 text-danger"></i>
+          <div class="service-header fw-bold h4">Recruitment Consultancy</div>
+          <div class="para-line mx-3 text-dark my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quibusdam autem odio cumque repellendus vitae consequuntur totam sint nisi ipsam, commodi veniam esse </div>
+        </div>
+      </div>
+      <div class="col-md-4  my-3 justify-content-center align-items-center text-center">
+        
+        <div class="p-3 text-dark">
+          <i class="bi bi-diagram-3 h1 text-danger"></i>
+          <div class="service-header fw-bold h4">Project Management Service</div>
+          <div class="para-line mx-3 text-dark my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quibusdam autem odio cumque repellendus vitae consequuntur totam sint nisi ipsam, commodi veniam esse </div>
+        </div>
+      </div>  
+      <div class="col-md-4  my-3 justify-content-center align-items-center text-center">
+        
+        <div class="p-3 text-dark">
+          <i class="bi bi-diagram-3 h1 text-danger"></i>
+          <div class="service-header fw-bold h4">IT Service</div>
+          <div class="para-line mx-3 text-dark my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quibusdam autem odio cumque repellendus vitae consequuntur totam sint nisi ipsam, commodi veniam esse </div>
+        </div>
+      </div>  
+    
+      <button class="btns border-btns">
+        <a href="/services">
+          Our Servies 
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </a>
+      </button>
+    </div>
+  </div>
+       <!------------------Services section end  ------------>
+
+<!------------------------Sub services start ---------------- -->
+  <div class="container-lg my-5">
+    <div class="row flex-row-reverse sub-services">
+      <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+        
+        <div class="p-3 text-dark">
+          <div class=" fw-bold display-6 text-danger">Artificial Intelligence & Machine Learning</div><br>
+          <div class="para-line text-dark my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet eaque sed, minima alias nam cum sit commodi. Aspernatur, ex quas! Quidem illum non suscipit tempore cum officiis et, enim deleniti est. Sint porro quod esse</div>
+          <button class="btns border-btns">
+						<a href="/contact">
+							Contact us now
+							<ion-icon name="chevron-forward-outline"></ion-icon>
+						</a>
+					</button>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+        
+        <div class="p-3 w-100 text-dark">
+          <img class="img-fluid" src="./photo/pic4.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-lg my-5">
+    <div class="row sub-services2">
+      <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+        
+        <div class="p-3 text-dark">
+          <div class=" fw-bold display-6 text-danger">Engineering, Health & Social Care, Business & Management, Education</div><br>
+          <div class="para-line text-dark my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet eaque sed, minima alias nam cum sit commodi. Aspernatur, ex quas! Quidem illum non suscipit tempore cum officiis et, enim deleniti est. Sint porro quod esse </div>
+          <button class="btns border-btns">
+						<a href="/contact">
+							Contact us now 
+							<ion-icon name="chevron-forward-outline"></ion-icon>
+						</a>
+					</button>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+        
+        <div class="p-3 w-100 text-dark">
+          <img class="img-fluid" src="./photo/pic5.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-lg my-5">
+    <div class="row sub-services3">
+      <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+        
+        <div class="p-3 text-dark">
+          <div class=" fw-bold display-6 text-danger">Healthcare, Research & Professional Qualification Training.</div><br>
+          <div class="para-line text-dark my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet eaque sed, minima alias nam cum sit commodi. Aspernatur, ex quas! Quidem illum non suscipit tempore cum officiis et, enim deleniti est. Sint porro quod esse </div>
+          <button class="btns border-btns">
+						<a href="contact">
+							Contact us now 
+							<ion-icon name="chevron-forward-outline"></ion-icon>
+						</a>
+					</button>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+        
+        <div class="p-3 w-100 text-dark">
+          <img class="img-fluid" src="./photo/pic7.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-lg my-5">
+    <div class="row flex-row-reverse sub-services">
+      <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+        
+        <div class="p-3 text-dark">
+          <div class=" fw-bold display-6 text-danger">Information Technology</div><br>
+          <div class="para-line text-dark my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet eaque sed, minima alias nam cum sit commodi. Aspernatur, ex quas! Quidem illum non suscipit tempore cum officiis et, enim deleniti est. Sint porro quod esse</div>
+          <button class="btns border-btns">
+						<a href="/contact">
+							Contact us now
+							<ion-icon name="chevron-forward-outline"></ion-icon>
+						</a>
+					</button>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+        
+        <div class="p-3 w-100 text-dark">
+          <img class="img-fluid" src="./photo/ai (2).jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+<!------------------------Sub services end ---------------- -->
+
+  <!------------------Career section Start  ------------------->
+
+  <section id="career" class="career">
+    <div class="services h2 mb-2 mt-5 text-center display-4 border-3 border-bottom border-danger">Career</div><br>
+
+    <div class="container-lg my-5">
+      <div class="row sub-services3">
+        <div class="col-lg-6 col-md-6 my-1 justify-content-center align-items-center text-start">
+         <div class="p-3 text-dark">
+            <div class=" fw-bold display-6 text-danger">Become our student and get certified within 6 Months</div><br>
+            <div class="para-line text-dark my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet eaque sed, minima alias nam cum sit commodi. Aspernatur, ex quas! Quidem illum non suscipit tempore cum officiis et, enim deleniti est. Sint porro quod esse </div>
+            <button class="btns border-btns">
+              <a href="./contact.html">
+                Contact us now 
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </a>
+            </button>
+          </div>
+        </div>
+  
+        <div class="col-lg-6 col-md-6 my-1 justify-content-center align-items-center text-start">
+          
+          <div class="p-3 w-100 text-dark">
+            <img class="img-fluid" src="./photo/pic7.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------------Career section end  ------------------->
+
+<!----------- Success section start ------------>
+<div class="container-lg my-5 p-4 success-section">
+  <h2 class="text-center display-4 text-danger fw-bold">Over 8 Years of Success!</h2>
+  <p class="text-center success-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laboriosam quod inventore facere ratione perspiciatis porro atque aut iste! Quod.</p>
+
+  <div class="row align-items-center justify-content-center my-5">
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card shadow rounded">
+      <div class="card-body text-center py-3">
+        <ion-icon name="library-outline" class="success-icon display-4"></ion-icon>
+        <h3 class="card-title fw-bolder text-muted text-danger success-card-header">100+</h3>
+        <p class="card-text mx-5 text-muted h5">Courses</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card shadow rounded">
+      <div class="card-body text-center py-3">
+        <ion-icon name="trophy-outline" class="success-icon display-4"></ion-icon>
+        <h3 class="card-title fw-bolder text-muted text-danger success-card-header">5.5K+</h3>
+        <p class="card-text mx-5 text-muted h5">Students</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card shadow rounded">
+      <div class="card-body text-center py-3">
+        <ion-icon name="flame-outline" class="success-icon display-4"></ion-icon>
+        <h3 class="card-title fw-bolder text-muted text-danger success-card-header">100%</h3>
+        <p class="card-text mx-4 text-muted h5">Success Rate</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card shadow rounded">
+      <div class="card-body text-center py-3">
+        <ion-icon name="medal-outline" class="success-icon display-4"></ion-icon>
+        <h3 class="card-title fw-bolder text-muted text-danger success-card-header">98%</h3>
+        <p class="card-text mx-5 text-muted h5">Certified</p>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+<!----------- Success section end ------------>
+
+<!----------- Team section start ------------>
+<div class="container-lg my-5 p-4 team-section">
+  <h2 class="text-center display-4 text-danger fw-bold">Meet Our Masters</h2>
+  <p class="text-center mx-2 px-2 team-description" style="text-align: justify; text-justify:inter-word">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laboriosam quod inventore facere ratione perspiciatis porro atque aut iste! Quod.</p>
+
+  <div class="row align-items-center shadow rounded justify-content-center my-5">
+
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card mb-3 border-0">
+      <div class="card-body rounded text-center py-3">
+        <img src="./photo/professor-1.jpg" alt="">
+        <h5 class="card-title fw-bolder pt-3 text-danger success-card-header">Prof. Mike Carter</h5>
+        <p class="card-text mx-2 pb-2 text-danger h6 team-card-detail">Team Lead</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card mb-3 border-0">
+      <div class="card-body rounded text-center py-3">
+        <img src="./photo/professor-2.jpg" alt="">
+        <h5 class="card-title fw-bolder pt-3 text-danger success-card-header">Dr. James Morgan</h5>
+        <p class="card-text mx-1 pb-2 text-danger h6 team-card-detail">Software Engineer</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card mb-3 border-0">
+      <div class="card-body rounded text-center py-3">
+        <img src="./photo/professor-3.jpg" alt="">
+        <h5 class="card-title fw-bolder pt-3 text-danger success-card-header">Dr. Patricia Jone</h5>
+        <p class="card-text mx-2 pb-2 text-danger h6 team-card-detail">Health Coach</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-lg-3 pt-2 text-danger">
+     <div class="card mb-3 border-0">
+      <div class="card-body rounded text-center py-3">
+        <img src="./photo/professor-4.jpg" alt="">
+        <h5 class="card-title fw-bolder pt-3 text-danger success-card-header">Dr. Roberto Lyon</h5>
+        <p class="card-text mx-2 pb-2 text-danger h6 team-card-detail">Research Coach</p>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+<!----------- Team section end ------------>
+
+<!----------- Testimony section start ------------>
+<div class="container-lg my-5 p-4 testimony-section">
+  <h2 class="text-center display-4 text-danger fw-bold">Testimonials</h2>
+  <p class="text-center mx-lg-5 px-md-5 testimony-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laboriosam quod inventore facere ratione perspiciatis porro atque aut iste! Quod.</p>
+
+  <div class="row align-items-center justify-content-center my-5">
+
+    <div class="col-md-4 col-lg-4 pt-2 text-danger">
+     <div class="card mb-3 border-0 shadow rounded">
+      <div class="card-body rounded text-start py-3">
+        <p class="card-text mx-2 pb-2 text-muted testimony-card-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt veniam hic quia soluta explicabo ab voluptas, libero nisi placeat quis illo similique at? Laudantium id nesciunt magnam debitis neque.</p>
+
+        <div class="client-testimony d-flex">
+          <img class="rounded-circle img-fluid" src="./photo/client-1.jpg" alt="">
+          <h4 class="client-name text-danger px-2 py-2">David Clark</h4>
+        </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-lg-4 pt-2 text-danger">
+     <div class="card mb-3 border-0 shadow rounded">
+      <div class="card-body rounded text-start py-3">
+        <p class="card-text mx-2 pb-2 text-muted testimony-card-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt veniam hic quia soluta explicabo ab voluptas, libero nisi placeat quis illo similique at? Laudantium id nesciunt magnam debitis neque.</p>
+
+        <div class="client-testimony d-flex">
+          <img class="rounded-circle img-fluid" src="./photo/client-2.jpg" alt="">
+          <h4 class="client-name text-danger px-2 py-2">Sandra William</h4>
+        </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="col-md-4 col-lg-4 pt-2 text-danger">
+     <div class="card mb-3 border-0 shadow rounded">
+      <div class="card-body rounded text-start py-3">
+        <p class="card-text mx-2 pb-2 text-muted testimony-card-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt veniam hic quia soluta explicabo ab voluptas, libero nisi placeat quis illo similique at? Laudantium id nesciunt magnam debitis neque.</p>
+
+        <div class="client-testimony d-flex">
+          <img class="rounded-circle img-fluid" src="./photo/client-3.jpg" alt="">
+          <h4 class="client-name text-danger px-2 py-2">Celena Gomez</h4>
+        </div>
+      </div>
+     </div>
+    </div>
+
+    
+  </div>
+</div>
+<!----------- Testimony section end ------------>
+
+
+
+
+<!----------- Footer section start ------------>
+
+<footer class="bg-danger text-white pt-5 pb-4">
+
+  <div class="container text-center text-md-start">
+
+    <div class="row text-center text-md-start">
+
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="mb-4 fw-bold text-white"><img style="width: 300px;" src="./photo/logo.jpg" alt=""></h5>
+        <p>Here you can use rows and column to organise your footer content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, optio!</p>
+
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 fw-bold text-white">Navigation</h5>
+        <p>
+          <a href="/" class="text-white">Top Page</a>
+        </p>
+        <p>
+          <a href="/about" class="text-white">About Us</a>
+       </p>
+        <p>
+          <a href="/services" class="text-white">Services</a>
+       </p>
+        <p>
+          <a href="/blogs" class="text-white">Blogs</a>        
+        </p>
+      </div>
+
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 fw-bold text-white">Useful Links</h5>
+        <p>
+          <a href="#" class="text-white">Research & Development</a>
+        </p>
+        <p>
+          <a href="#" class="text-white">Training</a>
+       </p>
+        <p>
+          <a href="#" class="text-white">Recruitment Consultancy</a>
+       </p>
+        <p>
+          <a href="#" class="text-white">Project Management Service</a>        
+        </p>
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 fw-bold text-white">Contacts</h5>
+        <p>
+          <i class="bi bi-house-door mr-3"></i> Achievers Villa, Opposite University of Port Harcourt Teaching Hospital Main Gate, Alakahia, Rivers State, Nigeria.
+        </p>
+        <p>
+          <i class="bi bi-envelope mr-3"></i> info@aclassconsults.com
+        </p>
+        <p>
+          <i class="bi bi-telephone mr-3"></i> +44 7544 742493
+        </p>
+        <p>
+          <i class="bi bi-printer mr-3"></i> +234 7061985823
+        </p>
+      </div>
+
+    </div>
+
+    <hr class="mb-4">
+    <div class="row align-items-center">
+      <div class="col-md-7 col-lg-8">
+        <p>Copyright &copy;2023 All rights reserved by:
+          <a href="#">
+            <strong class="text-white">A-CLASS ACADEMIC CONSULT</strong>
+          </a>
+        </p>
+      </div>
+
+      <div class="col-md-5 col-lg-4">
+        <div class="text-center text-md-end">
+
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-envelope-at"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-youtube"></i></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+<!----------- footer section end ------------>
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
