@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@0;1&display=swap");
+:root {
+  /*--------- Color variable ---------*/
+  --blue-color: #33467b;
+  ---light--blue-color: #69788F;
+  /*---------- Font size ------------*/
+  ---heading--font-size: 1.5rem;
+  ---paragraph--font-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Serif Pro", serif;
+}
+
+body {
+  /*--------------- header nav section start -----------------*/
+  /*--------------- header nav section end -----------------*/
+  /*--------------- Hero section start -----------------*/
+  /*--------------- Hero section end -----------------*/
+  /*------------------Services section start  ------------*/
+  /*------------------Services section end  ------------*/
+  /*------------------------Sub services start ---------------- --*/
+  /*------------------------Sub services end ---------------- --*/
+  /*------------------ About Us Page Begining .......................*/
+  /*--------------- About Hero section end -----------------*/
+  /*--------------- About Hero section end -----------------*/
+  /*--------------- About details start -----------------*/
+  /*--------------- About details end -----------------*/
+  /*--------------- Contact Hero section end -----------------*/
+  /*--------------- contact Hero section end -----------------*/
+  /*--------------- contact details start -----------------*/
+  /*--------------- contact details ed -----------------*/
+  /* Services */
+}
+body img {
+  width: 100%;
+  height: 0 auto;
+}
+body .breadcrumb a {
+  color: #1b6eeb;
+}
+body .breadcrumb a:hover {
+  color: #1266e4;
+}
+body .heading {
+  font-weight: 600;
+}
+body .para-line {
+  color: var(---light--blue-color);
+  font-size: var(---paragraph--font-size);
+}
+body .white {
+  color: #ffffff;
+}
+body a {
+  text-decoration: none;
+  color: #ffffff;
+}
+body a:hover {
+  color: #ffffff;
+}
+body .btns {
+  background-color: #ffffff;
+  padding: 0.8rem 2.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body .btns a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+body .border-btns {
+  border: 2px solid rgb(202, 32, 32);
+  margin: 1.5rem 0;
+  transition: 0.5s;
+}
+body .border-btns:hover {
+  background: rgb(202, 32, 32);
+}
+body .border-btns:hover a {
+  color: #ffffff;
+}
+body header {
+  width: 100vw;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+}
+body header a {
+  text-decoration: none;
+  color: currentColor;
+}
+body header a:hover {
+  color: currentColor;
+}
+body header .dropdown-menu {
+  background-color: rgb(202, 32, 32);
+  padding: 0;
+  letter-spacing: normal;
+}
+body header .dropdown-menu a {
+  color: #ffffff;
+}
+body header .dropdown-menu .dropdown-menu li:hover {
+  background-color: #fdf0f0;
+  color: rgb(202, 32, 32);
+}
+body header .container-fluid {
+  width: 100%;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body header .navb-logo img {
+  width: 141px;
+  height: 66px;
+}
+body header .navb-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  letter-spacing: 3px;
+}
+body header .navb-items .items {
+  text-align: center;
+  margin-inline: 15px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #102447;
+  padding: 5px 0;
+  transition: all 0.15s ease;
+  border-bottom: 0px solid rgb(202, 32, 32);
+  border-top: 0px solid rgb(202, 32, 32);
+  cursor: pointer;
+}
+body header .navb-items .items:hover {
+  border-bottom: 3px solid rgb(202, 32, 32);
+  border-top: 3px solid rgb(202, 32, 32);
+}
+body header .modal-dialog {
+  margin: 0;
+  width: 430px;
+}
+@media (max-width: 750px) {
+  body header .modal-dialog {
+    width: 350px;
+  }
+}
+body header .modal-content {
+  border-radius: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: rgb(202, 32, 32);
+}
+body header .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+  margin: 0 auto;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #ffffff;
+}
+body header .modal-header img {
+  width: 140px;
+  height: 66px;
+  margin-top: 17.5px;
+}
+body header .modal-header .btn-close {
+  background: transparent;
+  opacity: 1;
+}
+body header .modal-header i {
+  color: #ffffff;
+  font-size: 30px;
+}
+body header .modal-body {
+  width: 88%;
+  margin: 0 auto;
+  padding: 75px 0 0 0;
+  flex: unset;
+}
+body header .modal-body .modal-line {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 7px 0;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: rgb(104, 6, 6);
+  border-bottom: 1px solid rgb(104, 6, 6);
+}
+body header .modal-body .modal-line:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+body header .modal-body .modal-line a {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  color: #ffffff;
+}
+body header .modal-body .modal-line i {
+  color: currentColor;
+  font-size: 30px;
+  width: 35px;
+  margin-right: 15px;
+  padding: 0 0 3px 3px;
+}
+body header .modal-body .dropdown-menu {
+  background-color: #ffffff;
+  padding: 0;
+}
+body header .modal-body .dropdown-menu a {
+  color: rgb(202, 32, 32);
+  font-size: 1rem;
+  letter-spacing: normal;
+}
+body header .modal-body .dropdown-menu .dropdown-menu a:hover {
+  background-color: rgb(202, 32, 32);
+  color: #ffffff;
+}
+body header .modal-body .navb-button {
+  width: 100%;
+  height: 47px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(202, 32, 32);
+  letter-spacing: 2px;
+  transition: all 0.5s ease;
+}
+body header .modal-body .navb-button:hover {
+  background-color: rgb(82, 12, 12);
+  color: #ffffff;
+}
+body header .mobile-modal-footer {
+  width: 87%;
+  margin: 0 auto;
+  padding: 20% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  color: rgb(82, 12, 12);
+}
+body header .mobile-modal-footer i:hover {
+  color: #ffffff;
+}
+body .hero {
+  height: 80vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(../photo/pic8.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+body .hero .containers {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .hero .containers .para-line {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  margin: 1rem 0 1rem 0;
+  width: 50%;
+}
+body .service-container {
+  background-image: url(../photo/category-bg-dark.png);
+}
+body .service-container .service-header {
+  letter-spacing: 1.5px;
+}
+body .sub-services img, body .sub-services2 img, body .sub-services3 img {
+  border-radius: 40px;
+}
+body .success-section {
+  background-image: url(../photo/category-bg-dark.png);
+  background-position: left;
+}
+body .success-section .success-description {
+  font-size: 1.2rem;
+}
+body .team-section .team-description {
+  font-size: 1.2rem;
+}
+body .team-section .team-card-detail {
+  letter-spacing: 2px;
+}
+body .testimony-section {
+  background-image: url(../photo/category-bg-dark.png);
+  background-position: left;
+}
+body .testimony-section .testimony-description {
+  font-size: 1.2rem;
+}
+body .testimony-section .client-testimony img {
+  width: 50px;
+}
+body .about-section {
+  background-image: url(../photo/category-bg-light.png);
+  background-position: left;
+}
+body .sub-services2 {
+  background-image: url(../photo/category-bg-light.png);
+  background-position: left;
+}
+body .about-hero {
+  height: 80vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(../photo/course-about.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+body .about-hero .containers {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .about-hero .containers .para-line {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  margin: 1rem 0 1rem 0;
+  width: 50%;
+}
+body .about-details {
+  background-image: url(../photo/category-bg-dark.png);
+}
+body .contact-hero {
+  height: 80vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(../photo/course-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+body .contact-hero .containers {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .contact-page-details .heading {
+  background-color: #f5eded;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+body .contact-page-details .address p {
+  font-weight: 600;
+}
+body .contact-page-details a {
+  color: #1a1ad3;
+}
+body .contact-page-details a:hover {
+  text-decoration: underline;
+}
+body .research-service-hero {
+  height: 80vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(../photo/pic8.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+body .research-service-hero .containers {
+  position: relative;
+  width: 100%;
+  color: #fffcfc;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+}
+body .research-service-hero .containers h4 {
+  margin-top: 150px;
+  border-bottom: #ffffff solid 2px;
+}
+body .middle-text {
+  margin-top: -20%;
+  max-width: 80%;
+}/*# sourceMappingURL=style.css.map */
