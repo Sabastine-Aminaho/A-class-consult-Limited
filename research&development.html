@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./scss/style.css">
+<!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+  <!-- External CSS file -->
+	<link rel="stylesheet" href="./scss/style.css">
+
+	<!-- Ionicons icon CDN -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>A-Class Cunsults Limited | Reserch & Development</title>
+</head>
+<body>
+
+  
+    	<!----------- Header section start ---------------->
+
+      <header class=" container-xxl d-flex align-items-center">
+        <div class="container-xxl d-flex justify-content-between">
+    
+          <div class="navb-logo">
+           <a href="/"> <img src="./photo/logo.jpg" alt="logo"></a>
+          </div>
+    
+          <div class="navb-items ">
+            <div class="d-none d-lg-flex ">
+            <div class="items">
+              <a href="#">Home</a>
+            </div>
+    
+            <div class="items">
+              <a href="./about.html">About Us</a>
+            </div>
+    
+            <div class="dropdown pt-2">
+              <a class="items dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+            
+              <ul class="dropdown-menu mt-3" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item border-bottom" href="./research&development.html">Research & Development</a></li>
+                <li><a class="dropdown-item border-bottom" href="#">Training</a></li>
+                <li><a class="dropdown-item border-bottom" href="#">Project Management Services</a></li>
+                <li><a class="dropdown-item border-bottom" href="#">Recruitment Consultancy</a></li>
+                <li><a class="dropdown-item border-bottom" href="#">IT Services</a></li>
+                <li><a class="dropdown-item border-bottom" href="#">Sponsor a Child Initiative</a></li>
+              </ul>
+            </div>
+    
+            <div class="items">
+              <a href="#career">Career</a>
+            </div>
+    
+            <div class="items btn btn-danger p-2 text-light">
+              <a href="./contact.html">Contact Us</a>
+            </div>
+          </div>
+    
+           
+    
+            <!-- Button trigger modal -->
+            <div class="mobile-toggler d-lg-none">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+                <i class=" fa-2x fa-solid fa-bars "></i>
+              </a>
+            </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <div class="modal-header d-flex">
+           <img src="./photo/logo.jpg" alt="logo">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-line">
+              <i class="fa-solid fa-house"></i> <a href="#">Home</a>
+            </div>
+            
+            <div class="modal-line">
+              <i class="fa-solid fa-circle-info"></i> <a href="./about.html">About Us</a>
+            </div>
+            <div class="modal-line">
+              <div class="dropup pt-2">
+                <i class="fa-solid fa-circle-info m-0 p-0"></i><a class="items dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+              
+                <ul class="dropdown-menu mt-3 " aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item border-bottom" href="./research&development.html">Research & Development</a></li>
+                  <li><a class="dropdown-item border-bottom" href="#">Training</a></li>
+                  <li><a class="dropdown-item border-bottom" href="#">Project Management Services</a></li>
+                  <li><a class="dropdown-item border-bottom" href="#">Recruitment Consultancy</a></li>
+                  <li><a class="dropdown-item border-bottom" href="#">IT Services</a></li>
+                  <li><a class="dropdown-item border-bottom" href="#">Sponsor a Child Initiative</a></li>
+                </ul>
+              </div>        
+            </div>
+    
+            
+    
+            <div class="modal-line">
+              <i class="fa-solid fa-graduation-cap"></i><a href="#career">Career</a>
+            </div>
+    
+           <a href="./contact.html" class="navb-button">Contact Us</a>
+          </div>
+    
+          <div class="mobile-modal-footer">
+            
+    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+    
+          </div>
+    
+        </div>
+       </header>
+    
+        <!----------- Header section End ---------------->
+
+        <!----------- Hero section start ---------------->
+	<section class="research-service-hero">
+		<div class="containers">
+			<div class="research-hero-content ">
+				<h4 class="heading display-4 w-50">
+					Research & Development
+				</h4>
+        <p class="mt-3 P-2 fs-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus maxime veritatis corrupti voluptatem? Veritatis iste molestiae, unde culpa eligendi amet nam libero, tempore commodi assumenda nostrum eaque dolorem! Quae voluptas aliquam  </p>
+				
+			</div>
+		</div>
+	</section>
+	<!----------- Hero section end ---------------->
+  <section class="research-body">
+ 
+  <div class="container-lg my-5">
+    <div class="row sub-services">
+      <div class="col-6 col-lg-4 col-md-4 my-1 justify-content-center align-items-center text-start">
+        
+        <div class="p-3 w-sm-50 w-md-50 text-dark ">
+          <img class="img-fluid w-80 rounded-circle" src="./photo/client-3.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-8 my-3 justify-content-center align-items-center text-start">
+        
+        <div class="p-3 text-dark">
+          <div class="para-line text-dark my-1 fs-4">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aut dignissimos cumque inventore molestiae veritatis quis corrupti obcaecati, a placeat itaque ea in eius libero illo ratione eos, possimus odit neque voluptate deserunt. Dolor iusto facilis impedit reiciendis voluptatum inventore aliquam quis nobis eos consectetur! Dolorem, at ea non consequuntur quas aliquid. Recusandae sed dolore maiores obcaecati, perspiciatis velit suscipit eum rem libero corrupti aperiam autem cupiditate repudiandae vitae."</div> <br>
+          <div class="container d-flex">
+            <i class="fa-solid fa-minus mt-2"></i> <h2>HELEN JONES</h2>
+          </div> 
+          <p class="mx-5 fs-5 f"><i>Petroleum Engineering</i></p>
+          
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+
+
+  <div class="container my-3 p-3 lead">
+    <h4 class="lead display-3 fw-bold text-center text-md-start">Research Fields</h4>
+    <p class="fs-5 my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, eum tempora voluptate tempore omnis deserunt optio beatae consectetur earum consequuntur sunt necessitatibus accusantium id possimus ea error veritatis blanditiis animi obcaecati? Consectetur nesciunt hic quibusdam! Ea rerum obcaecati fuga explicabo?</p>
+
+
+
+    <div class="container-lg my-5 hover-card">
+        <div class="row sub-services3 border-bottom border-end py-5 px-2">
+          <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+            
+            <div class="">
+              <img class="img-fluid" src="./photo/engineering.jpeg" alt="">
+            </div>
+          </div>
+  
+          <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+            <div class="p-3 text-dark">
+              <div class=" fw-bold display-6 text-center text-md-start">Engineering</div>
+              <div class="my-1 fs-5 text-center text-md-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi velit iste consequatur ducimus assumenda, temporibus suscipit aperiam doloribus vitae placeat pariatur nemo aliquid odio maiores tempora quae mollitia aspernatur nisi repellendus aliquam quidem eveniet perspiciatis amet voluptate. Doloremque, voluptates consequuntur illum cumque quo, cupiditate vitae quam cum nulla animi nemo.</div>
+              <div>
+                <a href="./engineering.html" class="btn text-danger fs-5 ">Read for details <i class="bi bi-arrow-right-short"></i></a> 
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    </div>
+
+    <div class="container-lg my-5 hover-card">
+        <div class="row sub-services3 border-bottom border-start py-5 px-2">
+          <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+            
+            <div class="">
+              <img class="img-fluid" src="./photo/IT.jpeg" alt="">
+            </div>
+          </div>
+  
+          <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+            <div class="p-3 text-dark">
+              <div class=" fw-bold display-6 text-center text-md-start">IT & Technology</div>
+              <div class="my-1 fs-5 text-center text-md-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi velit iste consequatur ducimus assumenda, temporibus suscipit aperiam doloribus vitae placeat pariatur nemo aliquid odio maiores tempora quae mollitia aspernatur nisi repellendus aliquam quidem eveniet perspiciatis amet voluptate. Doloremque, voluptates consequuntur illum cumque quo, cupiditate vitae quam cum nulla animi nemo.</div>
+              <div>
+                <a href="./engineering.html" class="btn text-danger fs-5 ">Read for details <i class="bi bi-arrow-right-short"></i></a> 
+              </div>
+            </div>
+          </div>
+    
+          
+        </div>
+    </div>
+
+    
+
+    <div class="card text-white container">
+      <img src="./photo/ai (4).jpg" class="card-img img-fluid" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title display-3 mt-5 pt-5">The future is here...</h5>
+        
+      </div>
+    </div>
+
+    <div class="container card border-0 middle-text shadow " >
+      <div class="text-start">
+        <h4 class="card-title display-4  my-1"> The future is here...</h4>
+        <p class="card-text fs-5" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident maxime consectetur, aliquid veritatis aspernatur expedita dolor excepturi quaerat corrupti recusandae id placeat! Laudantium animi voluptatum ullam quisquam nemo, quis laborum natus asperiores ratione amet illum perferendis adipisci, voluptas consequatur iusto dolores? Facilis quis distinctio aspernatur dolorum dolore sunt laboriosam eos, amet fugit debitis sapiente ut quia </p>
+        <a href="#" class="btn text-danger fs-5 ">Contact Us <i class="bi bi-arrow-right-short"></i></a> 
+      </div>
+    </div> <br> <br>
+
+    
+    <div class="container-lg my-5 hover-card">
+        <div class="row sub-services3 border py-5 px-2">
+          <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+            
+            <div class="">
+              <img class="img-fluid" src="./photo/management.jpeg" alt="">
+            </div>
+          </div>
+  
+          <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+            <div class="p-3 text-dark">
+              <div class=" fw-bold display-6 text-center text-md-start">Business & Management</div>
+              <div class="my-1 fs-5 text-center text-md-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi velit iste consequatur ducimus assumenda, temporibus suscipit aperiam doloribus vitae placeat pariatur nemo aliquid odio maiores tempora quae mollitia aspernatur nisi repellendus aliquam quidem eveniet perspiciatis amet voluptate. Doloremque, voluptates consequuntur illum cumque quo, cupiditate vitae quam cum nulla animi nemo.</div>
+              <div>
+                <a href="./engineering.html" class="btn text-danger fs-5 ">Read for details <i class="bi bi-arrow-right-short"></i></a> 
+              </div>
+            </div>
+          </div>
+    
+          
+        </div>
+    </div>
+
+   
+    <div class="container-lg my-5 hover-card">
+        <div class="row sub-services3 border py-5 px-2">
+          <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+            
+            <div class="">
+              <img class="img-fluid" src="./photo/care.jpg" alt="">
+            </div>
+          </div>
+  
+          <div class="col-lg-6 col-md-6 my-3 justify-content-center align-items-center text-start">
+            <div class="p-3 text-dark">
+              <div class=" fw-bold display-6 text-center text-md-start">Health & Social Care</div>
+              <div class="my-1 fs-5 text-center text-md-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi velit iste consequatur ducimus assumenda, temporibus suscipit aperiam doloribus vitae placeat pariatur nemo aliquid odio maiores tempora quae mollitia aspernatur nisi repellendus aliquam quidem eveniet perspiciatis amet voluptate. Doloremque, voluptates consequuntur illum cumque quo, cupiditate vitae quam cum nulla animi nemo.</div>
+              <div>
+                <a href="./engineering.html" class="btn text-danger fs-5 ">Read for details <i class="bi bi-arrow-right-short"></i></a> 
+              </div>
+            </div>
+          </div>
+    
+          
+        </div>
+    </div>
+  </div>
+
+
+  
+     
+</section>
+
+<div class="accordion container" id="accordionExample">
+  <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!----------- Footer section start ------------>
+
+<footer class="bg-danger mt-5 text-white pt-5 pb-4">
+
+  <div class="container text-center text-md-start">
+
+    <div class="row text-center text-md-start">
+
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="mb-4 fw-bold text-white"><img style="width: 300px;" src="./photo/logo.jpg" alt=""></h5>
+        <p>Here you can use rows and column to organise your footer content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, optio!</p>
+
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 fw-bold text-white">Navigation</h5>
+        <p>
+          <a href="/" class="text-white">Top Page</a>
+        </p>
+        <p>
+          <a href="/about" class="text-white">About Us</a>
+       </p>
+        <p>
+          <a href="/services" class="text-white">Services</a>
+       </p>
+        <p>
+          <a href="/blogs" class="text-white">Blogs</a>        
+        </p>
+      </div>
+
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 fw-bold text-white">Useful Links</h5>
+        <p>
+          <a href="#" class="text-white">Research & Development</a>
+        </p>
+        <p>
+          <a href="#" class="text-white">Training</a>
+       </p>
+        <p>
+          <a href="#" class="text-white">Recruitment Consultancy</a>
+       </p>
+        <p>
+          <a href="#" class="text-white">Project Management Service</a>        
+        </p>
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 fw-bold text-white">Contacts</h5>
+        <p>
+          <i class="bi bi-house-door mr-3"></i> Achievers Villa, Opposite University of Port Harcourt Teaching Hospital Main Gate, Alakahia, Rivers State, Nigeria.
+        </p>
+        <p>
+          <i class="bi bi-envelope mr-3"></i> info@aclassconsults.com
+        </p>
+        <p>
+          <i class="bi bi-telephone mr-3"></i> +44 7544 742493
+        </p>
+        <p>
+          <i class="bi bi-printer mr-3"></i> +234 7061985823
+        </p>
+      </div>
+
+    </div>
+
+    <hr class="mb-4">
+    <div class="row align-items-center">
+      <div class="col-md-7 col-lg-8">
+        <p>Copyright &copy;2023 All rights reserved by:
+          <a href="#">
+            <strong class="text-white">A-CLASS ACADEMIC CONSULT</strong>
+          </a>
+        </p>
+      </div>
+
+      <div class="col-md-5 col-lg-4">
+        <div class="text-center text-md-end">
+
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-envelope-at"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-youtube"></i></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+<!----------- footer section end ------------>
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
